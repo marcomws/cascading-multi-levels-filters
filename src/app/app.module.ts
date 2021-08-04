@@ -6,8 +6,8 @@ import { AppComponent } from './app.component';
 import { StandardFilterModule } from './standard-filter/standard-filter.module';
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule, StandardFilterModule ],
-  declarations: [ AppComponent ],
-  bootstrap:    [ AppComponent ]
+  imports: [BrowserModule, FormsModule, StandardFilterModule],
+  declarations: [AppComponent],
+  bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}
