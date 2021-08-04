@@ -26,7 +26,7 @@ export const FIRST_OR_DEFAULT = <T extends { isDefault?: boolean }>(
  * @returns array without duplicates
  *
  * @example // complex array example
- * REMOVECONDITIONALDUPLICATES(arr, (a, b) => {
+ * REMOVE_CONDITIONAL_DUPLICATES(arr, (a, b) => {
  *      if (a[key]) { return a[key] === b[key]; }
  *      else return a === b;
  * });
