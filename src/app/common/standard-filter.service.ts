@@ -6,7 +6,8 @@ import {
   SET_DEFAULT_FILTERS
 } from './helpers';
 import { StandardFilter, StandardFilterGroup } from './models';
-import * as FILTERS from '../../assets/filters-response.json';
+import { ResponseJson } from './models';
+import RESPONSE from '../../assets/filters-response.json';
 
 @Injectable({
   providedIn: 'root'
@@ -14,8 +15,8 @@ import * as FILTERS from '../../assets/filters-response.json';
 export class StandardFilterService {
   constructor() {}
 
-  public getFilters(): any {
-    return FILTERS.default;
+  public getFilters(): ResponseJson {
+    return RESPONSE.filters as ResponseJson;
   }
 
   public prepareFilters(
