@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { StandardFilterService } from '../common/standard-filter.service';
+import { ItemSelectionValues } from '../common/models';
 
 @Component({
   selector: 'standard-filter',
@@ -7,7 +7,9 @@ import { StandardFilterService } from '../common/standard-filter.service';
   styles: [``]
 })
 export class StandardFilterComponent {
-  constructor(private readonly filterService: StandardFilterService) {
-    console.log(this.filterService.getFilters());
+  bbb: ItemSelectionValues<string, string>;
+
+  constructor() {
+    this.bbb.ngClass = { classy: true };
   }
 }

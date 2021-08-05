@@ -1,37 +1,63 @@
-export class StandardFilterGroup {
+import { NgClass } from '@angular/common';
+
+export interface StandardFilterGroup {
   level: number;
   selectedFilter: StandardFilter;
   filters: StandardFilter[];
   isIndependent?: boolean;
 }
 
-export class StandardFilter {
+export interface StandardFilter {
   id: any;
   name: string;
   parentID?: any;
   isDefault?: boolean;
 }
 
-export class ResponseJson {
+export interface ResponseJson {
   country: CountryJson[];
   city: CityJson[];
   zip_code: ZipCodeJson[];
   purpose: string[];
 }
 
-export class CountryJson {
+export interface CountryJson {
   id: string;
   country_name: string;
 }
 
-export class CityJson {
+export interface CityJson {
   id: string;
   country_id: string;
   city_name: string;
 }
 
-export class ZipCodeJson {
+export interface ZipCodeJson {
   id: string;
   city_id: string;
   zip_code: string;
+}
+
+export interface ItemSelectionParams<T> {
+  pageTitle?: string;
+  selectionList: T[];
+  selectedItem: T;
+  propsToShow?: ItemSelectionValues<keyof T, keyof T>[];
+  itemId?: (keyof T)[];
+}
+
+export interface ItemSelection<T> {
+  id: string;
+  name: string;
+  values?: ItemSelectionValues<string, string>[];
+  data: T;
+}
+
+export interface ItemSelectionValues<T, R> {
+  lable?: string;
+  valuePrefix?: R;
+  value: T;
+  valueSuffix?: R;
+  valuePipe?: (value: any) => any;
+  ngClass?: string | string[] | Set<string> | { [klass: string]: any };
 }

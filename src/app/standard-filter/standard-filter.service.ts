@@ -4,9 +4,9 @@ import {
   GET_CHILD_FILTER,
   REMOVE_CONDITIONAL_DUPLICATES,
   SET_DEFAULT_FILTERS
-} from './helpers';
-import { StandardFilter, StandardFilterGroup } from './models';
-import { ResponseJson } from './models';
+} from '../common/helpers';
+import { StandardFilter, StandardFilterGroup } from '../common/models';
+import { ResponseJson } from '../common/models';
 import RESPONSE from '../../assets/filters-response.json';
 
 @Injectable({
