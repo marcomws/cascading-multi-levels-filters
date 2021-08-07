@@ -1,0 +1,505 @@
+{
+  "filters": {
+    "country": [
+      {
+        "id": "x100",
+        "country_name": "ITALY"
+      },
+      {
+        "id": "x200",
+        "country_name": "EGYPT"
+      },
+      {
+        "id": "x300",
+        "country_name": "USA"
+      }
+    ],
+    "city": [
+      {
+        "id": "x312",
+        "country_id": "x300",
+        "city_name": "Boston"
+      },
+      {
+        "id": "x313",
+        "country_id": "x300",
+        "city_name": "New York City"
+      },
+      {
+        "id": "x314",
+        "country_id": "x300",
+        "city_name": "Philadelphia"
+      },
+      {
+        "id": "x315",
+        "country_id": "x300",
+        "city_name": "Washington, D.C."
+      },
+      {
+        "id": "x316",
+        "country_id": "x300",
+        "city_name": "Chicago"
+      },
+      {
+        "id": "x317",
+        "country_id": "x300",
+        "city_name": "Detroit"
+      },
+      {
+        "id": "x318",
+        "country_id": "x300",
+        "city_name": "New Orleans"
+      },
+      {
+        "id": "x319",
+        "country_id": "x300",
+        "city_name": "Miami"
+      },
+      {
+        "id": "x320",
+        "country_id": "x300",
+        "city_name": "Atlanta"
+      },
+      {
+        "id": "x321",
+        "country_id": "x300",
+        "city_name": "Dallas"
+      },
+      {
+        "id": "x322",
+        "country_id": "x300",
+        "city_name": "Houston"
+      },
+      {
+        "id": "x323",
+        "country_id": "x300",
+        "city_name": "Las Vegas"
+      },
+      {
+        "id": "x324",
+        "country_id": "x300",
+        "city_name": "Los Angeles"
+      },
+      {
+        "id": "x325",
+        "country_id": "x300",
+        "city_name": "San Francisco"
+      },
+      {
+        "id": "x326",
+        "country_id": "x300",
+        "city_name": "Seattle"
+      },
+      {
+        "id": "x212",
+        "country_id": "x200",
+        "city_name": "Rome"
+      },
+      {
+        "id": "x213",
+        "country_id": "x200",
+        "city_name": "Milan"
+      },
+      {
+        "id": "x214",
+        "country_id": "x200",
+        "city_name": "Naples"
+      },
+      {
+        "id": "x215",
+        "country_id": "x200",
+        "city_name": "Turin"
+      },
+      {
+        "id": "x216",
+        "country_id": "x200",
+        "city_name": "Palermo"
+      },
+      {
+        "id": "x217",
+        "country_id": "x200",
+        "city_name": "Genoa"
+      },
+      {
+        "id": "x218",
+        "country_id": "x200",
+        "city_name": "Bologna"
+      },
+      {
+        "id": "x219",
+        "country_id": "x200",
+        "city_name": "Florence"
+      },
+      {
+        "id": "x220",
+        "country_id": "x200",
+        "city_name": "Bari"
+      },
+      {
+        "id": "x221",
+        "country_id": "x200",
+        "city_name": "Catania"
+      },
+      {
+        "id": "x222",
+        "country_id": "x200",
+        "city_name": "Verona"
+      },
+      {
+        "id": "x223",
+        "country_id": "x200",
+        "city_name": "Venice"
+      },
+      {
+        "id": "x224",
+        "country_id": "x200",
+        "city_name": "Messina"
+      },
+      {
+        "id": "x225",
+        "country_id": "x200",
+        "city_name": "Padua"
+      },
+      {
+        "id": "x226",
+        "country_id": "x200",
+        "city_name": "Trieste"
+      },
+      {
+        "id": "x227",
+        "country_id": "x200",
+        "city_name": "Brescia"
+      },
+      {
+        "id": "x228",
+        "country_id": "x200",
+        "city_name": "Parma"
+      },
+      {
+        "id": "x229",
+        "country_id": "x200",
+        "city_name": "Taranto"
+      },
+      {
+        "id": "x230",
+        "country_id": "x200",
+        "city_name": "Prato"
+      },
+      {
+        "id": "x231",
+        "country_id": "x200",
+        "city_name": "Modena"
+      },
+      {
+        "id": "x112",
+        "country_id": "x100",
+        "city_name": "Cairo"
+      },
+      {
+        "id": "x113",
+        "country_id": "x100",
+        "city_name": "Alexandria"
+      },
+      {
+        "id": "x114",
+        "country_id": "x100",
+        "city_name": "Aswan"
+      },
+      {
+        "id": "x115",
+        "country_id": "x100",
+        "city_name": "Asyut"
+      },
+      {
+        "id": "x116",
+        "country_id": "x100",
+        "city_name": "Dahab"
+      },
+      {
+        "id": "x117",
+        "country_id": "x100",
+        "city_name": "Faiyum"
+      },
+      {
+        "id": "x118",
+        "country_id": "x100",
+        "city_name": "Fayed"
+      },
+      {
+        "id": "x119",
+        "country_id": "x100",
+        "city_name": "Giza"
+      },
+      {
+        "id": "x120",
+        "country_id": "x100",
+        "city_name": "Hurghada"
+      },
+      {
+        "id": "x121",
+        "country_id": "x100",
+        "city_name": "Ismailia"
+      },
+      {
+        "id": "x122",
+        "country_id": "x100",
+        "city_name": "Luxor"
+      },
+      {
+        "id": "x123",
+        "country_id": "x100",
+        "city_name": "Mansoura"
+      },
+      {
+        "id": "x124",
+        "country_id": "x100",
+        "city_name": "Mallawi"
+      },
+      {
+        "id": "x125",
+        "country_id": "x100",
+        "city_name": "Obour"
+      },
+      {
+        "id": "x126",
+        "country_id": "x100",
+        "city_name": "Port Said"
+      },
+      {
+        "id": "x127",
+        "country_id": "x100",
+        "city_name": "Sohag"
+      },
+      {
+        "id": "x128",
+        "country_id": "x100",
+        "city_name": "Suez"
+      },
+      {
+        "id": "x129",
+        "country_id": "x100",
+        "city_name": "Safaga"
+      },
+      {
+        "id": "x130",
+        "country_id": "x100",
+        "city_name": "Zagazig"
+      },
+      {
+        "id": "x131",
+        "country_id": "x100",
+        "city_name": "Zefta"
+      },
+      {
+        "id": "x132",
+        "country_id": "x100",
+        "city_name": "Tanta"
+      },
+      {
+        "id": "x133",
+        "country_id": "x100",
+        "city_name": "Tahta"
+      }
+    ],
+    "zip_code": [
+      {
+        "id": "zc201",
+        "city_id": "x213",
+        "zip_code": "20121"
+      },
+      {
+        "id": "zc202",
+        "city_id": "x213",
+        "zip_code": "20122"
+      },
+      {
+        "id": "zc203",
+        "city_id": "x213",
+        "zip_code": "20123"
+      },
+      {
+        "id": "zc204",
+        "city_id": "x213",
+        "zip_code": "20124"
+      },
+      {
+        "id": "zc205",
+        "city_id": "x213",
+        "zip_code": "20125"
+      },
+      {
+        "id": "zc206",
+        "city_id": "x213",
+        "zip_code": "20126"
+      },
+      {
+        "id": "zc207",
+        "city_id": "x213",
+        "zip_code": "20127"
+      },
+      {
+        "id": "zc208",
+        "city_id": "x213",
+        "zip_code": "20128"
+      },
+      {
+        "id": "zc209",
+        "city_id": "x213",
+        "zip_code": "20129"
+      },
+      {
+        "id": "zc210",
+        "city_id": "x213",
+        "zip_code": "20131"
+      },
+      {
+        "id": "zc211",
+        "city_id": "x213",
+        "zip_code": "20132"
+      },
+      {
+        "id": "zc212",
+        "city_id": "x213",
+        "zip_code": "20133"
+      },
+      {
+        "id": "zc213",
+        "city_id": "x213",
+        "zip_code": "20134"
+      },
+      {
+        "id": "zc214",
+        "city_id": "x213",
+        "zip_code": "20135"
+      },
+      {
+        "id": "zc215",
+        "city_id": "x213",
+        "zip_code": "20136"
+      },
+      {
+        "id": "zc216",
+        "city_id": "x213",
+        "zip_code": "20137"
+      },
+      {
+        "id": "zc217",
+        "city_id": "x213",
+        "zip_code": "20138"
+      },
+      {
+        "id": "zc218",
+        "city_id": "x213",
+        "zip_code": "20139"
+      },
+      {
+        "id": "zc219",
+        "city_id": "x213",
+        "zip_code": "20141"
+      },
+      {
+        "id": "zc220",
+        "city_id": "x213",
+        "zip_code": "20142"
+      },
+      {
+        "id": "zc221",
+        "city_id": "x213",
+        "zip_code": "20143"
+      },
+      {
+        "id": "zc222",
+        "city_id": "x213",
+        "zip_code": "20144"
+      },
+      {
+        "id": "zc223",
+        "city_id": "x213",
+        "zip_code": "20145"
+      },
+      {
+        "id": "zc224",
+        "city_id": "x213",
+        "zip_code": "20146"
+      },
+      {
+        "id": "zc225",
+        "city_id": "x213",
+        "zip_code": "20147"
+      },
+      {
+        "id": "zc226",
+        "city_id": "x213",
+        "zip_code": "20148"
+      },
+      {
+        "id": "zc227",
+        "city_id": "x213",
+        "zip_code": "20149"
+      },
+      {
+        "id": "zc228",
+        "city_id": "x213",
+        "zip_code": "20151"
+      },
+      {
+        "id": "zc229",
+        "city_id": "x213",
+        "zip_code": "20152"
+      },
+      {
+        "id": "zc230",
+        "city_id": "x213",
+        "zip_code": "20153"
+      },
+      {
+        "id": "zc231",
+        "city_id": "x213",
+        "zip_code": "20154"
+      },
+      {
+        "id": "zc232",
+        "city_id": "x213",
+        "zip_code": "20155"
+      },
+      {
+        "id": "zc233",
+        "city_id": "x213",
+        "zip_code": "20156"
+      },
+      {
+        "id": "zc234",
+        "city_id": "x213",
+        "zip_code": "20157"
+      },
+      {
+        "id": "zc235",
+        "city_id": "x213",
+        "zip_code": "20158"
+      },
+      {
+        "id": "zc236",
+        "city_id": "x213",
+        "zip_code": "20159"
+      },
+      {
+        "id": "zc237",
+        "city_id": "x213",
+        "zip_code": "20161"
+      },
+      {
+        "id": "zc238",
+        "city_id": "x213",
+        "zip_code": "20162"
+      }
+    ],
+    "purpose": [
+      "rent for self",
+      "rent for rent",
+      "rent then buy",
+      "buy for self",
+      "buy for rent",
+      "buy for buy"
+    ]
+  }
+}
