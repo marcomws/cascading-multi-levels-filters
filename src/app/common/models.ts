@@ -1,5 +1,3 @@
-import { NgClass } from '@angular/common';
-
 export interface StandardFilterGroup {
   level: number;
   selectedFilter: StandardFilter;
@@ -39,18 +37,11 @@ export interface ZipCodeJson {
 }
 
 export interface ItemSelectionParams<T> {
-  pageTitle?: string;
+  selectionTitle?: string;
   selectionList: T[];
   selectedItem: T;
   propsToShow?: ItemSelectionValues<keyof T, keyof T>[];
   itemId?: (keyof T)[];
-}
-
-export interface ItemSelection<T> {
-  id: string;
-  name: string;
-  values?: ItemSelectionValues<string, string>[];
-  data: T;
 }
 
 export interface ItemSelectionValues<T, R> {
@@ -60,4 +51,11 @@ export interface ItemSelectionValues<T, R> {
   valueSuffix?: R;
   valuePipe?: (value: any) => any;
   ngClass?: string | string[] | Set<string> | { [klass: string]: any };
+}
+
+export interface ItemSelection<T> {
+  id: string;
+  name: string;
+  values?: ItemSelectionValues<string, string>[];
+  data: T;
 }

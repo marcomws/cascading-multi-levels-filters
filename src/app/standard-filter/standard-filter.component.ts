@@ -1,15 +1,12 @@
-import { Component } from '@angular/core';
-import { ItemSelectionValues } from '../common/models';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'standard-filter',
-  template: '',
-  styles: [``]
+  selector: 'app-standard-filter',
+  templateUrl: './standard-filter.component.html',
+  styleUrls: ['./standard-filter.component.scss']
 })
-export class StandardFilterComponent {
-  bbb: ItemSelectionValues<string, string>;
+export class StandardFilterComponent implements OnInit {
+  constructor() {}
 
-  constructor() {
-    this.bbb.ngClass = { classy: true };
-  }
+  ngOnInit() {}
 }
